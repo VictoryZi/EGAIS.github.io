@@ -32,6 +32,7 @@ a{
 	font-family: Laptev;
 	display: block;
 	margin: 20px 20px 20px 20px;
+	text-align: left;
 }
 div{
 	width: auto;
@@ -45,7 +46,7 @@ img{
 	height: auto;
 	display: block;
 	float: right;
-	margin: 40px 20px 20px 20px;
+	margin: 40px 40px 20px 20px;
 }
 body{
 	font-size: 20px;
