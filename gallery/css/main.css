@@ -59,5 +59,11 @@ body {
 	color: #506A0F;
 	font-family: 'Amatic SC', cursive;
 	font-size: 40px;
-	
+}
+.p{
+	text-align: center;
+	text-shadow: black; 1px 1px 1px;
+	color: #506A0F;
+	font-family: 'Amatic SC', cursive;
+	font-size: 40px;
 }
