@@ -17,10 +17,13 @@ h1{color: #301b28;
 p{color: #b6452c;
 	font-size: 20px;
 	font-family: 'Playfair Display', serif;
+	text-align: left;
+	margin: 20px 20px 20px 20px;
 
 }
 span{
 	background: #523634;
+	font-size: 25px;
 }
 a{
 	text-decoration: none;
