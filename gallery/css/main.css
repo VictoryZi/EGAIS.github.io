@@ -18,12 +18,10 @@ body {
 	margin: auto;
 	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.8);
 	flex-wrap: wrap;
+	align-items: center;
+    justify-content: center;
 }
 .item{
-	max-height: 490px;
-	max-width: 490px;
-	height: calc(50vw - 10px);
-	width: calc(50vw - 10px);
 	background-color: #556B2E;
 	/*margin: 5px;*/
 	background-position: center;
@@ -31,6 +29,10 @@ body {
 	box-shadow: 0 0 10px 1px rgba(230, 255, 255, 1);
 	text-align: center;
 	background-position: bottom 50px;
+	max-width: 490px;
+	max-height: 490px;
+    height: calc(50vw - 10px);
+    width: calc(50vw - 10px);
 }
 .headling{
 	font-size: 60px;
@@ -61,12 +63,25 @@ body {
 	font-size: 40px;
 	
 }
-a{
+.link_wrapper{
+	padding: 10px 0 ;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	width: 100%;
+	align-items: center;
+    justify-content: center;
+
+}
+.author{
+	color: ;
 	text-decoration: none;
-	color: #301b28;
-	font-size: 30px ;
+	border-bottom: 2px solid transparent;
+	transition: 0.5s;
 	font-family: 'Amatic SC', cursive;
-	display: block;
-	margin: 20px 20px 20px 20px;
 	text-align: center;
+	font-size: 40px;
+}
+.author:hover {
+	border-color: blue;
 }
